@@ -1,0 +1,30 @@
+
+.header {
+  text-align: center;
+  border: solid #61dafb;
+  background-color: #282c34;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.search-bar {
+  background-color: whitesmoke;
+  padding: 10px;
+}
+
+.search-bar input {
+  color: white;
+  display: block;
+  margin: auto;
+
+}
+
+.App {
+  display: flex;
+}
+
+.App > * {
+  flex: 1; 
+}
